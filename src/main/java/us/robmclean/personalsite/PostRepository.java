@@ -1,4 +1,4 @@
-package org.robmclean.personalsite;
+package us.robmclean.personalsite;
 
 import org.springframework.data.repository.CrudRepository;
 

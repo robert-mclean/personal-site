@@ -1,4 +1,4 @@
-package org.robmclean.personalsite;
+package us.robmclean.personalsite;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
