@@ -61,6 +61,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<!-- tag::frontend-maven-plugin[] -->
+			<plugin>
+				<groupId>com.github.eirslett</groupId>
+				<artifactId>frontend-maven-plugin</artifactId>
+				<version>1.6</version>
+			</plugin>
+			<!-- end::frontend-maven-plugin[] -->
 		</plugins>
 	</build>
 

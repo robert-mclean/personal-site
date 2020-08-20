@@ -1,0 +1,31 @@
+{
+  "name": "rm-site",
+  "version": "0.0.1",
+  "description": "Personal website of Robert McLean",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robert-mclean/personal-site.git"
+  },
+  "keywords": [
+    "rest",
+    "spring",
+    "react"
+  ],
+  "author": "Robert McLean",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "rest": "^1.3.1"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d --output ./target/classes/static/built/bundle.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

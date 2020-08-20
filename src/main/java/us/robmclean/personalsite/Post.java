@@ -10,6 +10,8 @@ public class Post {
     private @Id @GeneratedValue Long id;
     private String content;
 
+    public Post() {}
+
     public Post(String content) {
         this.content = content;
     }
@@ -38,5 +40,13 @@ public class Post {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Employee {" +
+                "\tId: " + this.id +
+                "\tContent: " + this.content;
     }
 }
