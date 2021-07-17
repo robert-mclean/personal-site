@@ -1,0 +1,44 @@
+@use "sass:map";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+$inter: 'Inter', sans-serif; 
+
+// change the theme
+$theme-colors: (
+  "dark": #000000,
+  "primary": #4a88cf
+);
+
+$enable-responsive-font-sizes: true;
+
+body {
+  font-family: $inter
+}
+
+.large-heading > h1 {
+  font-size: 4rem;
+}
+
+.large-heading > p {
+  font-size: 1.5rem;
+  color: #7c7c7c;
+}
+
+.title-section {
+  min-height: 100vh;
+}
+
+.body-section {
+  min-height: 60vh;
+}
+
+.body-section > div > h2 {
+  color: map.get($theme-colors, "primary");
+}
+
+.employment-table > div {
+
+}
+
+
+@import '~bootstrap/scss/bootstrap.scss';
